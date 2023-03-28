@@ -1,9 +1,7 @@
-FROM ubuntu:18.04
-
-WORKDIR /usr/src/app
-
-COPY ./1.16.sh .
-
+FROM ubuntu 
+RUN apt update 
+RUN apt install –y apache2 
+RUN apt install –y apache2-utils 
+RUN apt clean 
 EXPOSE 80
-
-ENTRYPOINT ./1.16.sh
+CMD [“apache2ctl”, “-D”, “FOREGROUND”]
