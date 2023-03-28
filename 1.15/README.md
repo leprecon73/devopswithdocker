@@ -11,4 +11,4 @@
 - $ docker pull leprecon73/youtube-dl:latest
 
 #How to run
-- $ docker run --rm youtube-dl <link>
+- $ docker run --rm youtube-dl < link >
