@@ -1,9 +1,9 @@
-In 'backend' Dockerfile replace:
+In 'frontend' Dockerfile replace:
 
-'REQUEST_ORIGIN=http://localhost:5000'
+ENV REACT_APP_BACKEND_URL="http://localhost:8080"
 
 with
 
-'REQUEST_ORIGIN=http://localhost'
+ENV REACT_APP_BACKEND_URL="http://localhost/api"
 
-rebuild 'backend' image.
+rebuild 'image', named it 'frontend-2.10'.
