@@ -1,0 +1,9 @@
+In 'backend' Dockerfile replace:
+
+'REQUEST_ORIGIN=http://localhost:5000'
+
+with
+
+'REQUEST_ORIGIN=http://localhost'
+
+rebuild 'backend' image.
