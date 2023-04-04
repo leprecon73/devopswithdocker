@@ -2,7 +2,7 @@ version: '3.7'
 
 services:
   node-dev-env:
-    build: .
+    image: leprecon73/calcy
     command: npm start
     ports: 
       - 3000:3000
