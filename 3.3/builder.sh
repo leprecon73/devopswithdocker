@@ -9,5 +9,6 @@ fi
 git clone https://github.com/$1.git ./tmp && cd ./tmp
 docker build . -t $2
 docker push $2
+rm -rf ./tmp
 
 
