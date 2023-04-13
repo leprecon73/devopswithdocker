@@ -9,7 +9,7 @@ EXPOSE 5000
 RUN npm install && \
 npm run build && \
 npm install -g serve && \
-useradd -S appuser && \
+adduser -S appuser && \
 chown appuser .
 
 USER appuser

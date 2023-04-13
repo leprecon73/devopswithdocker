@@ -7,7 +7,7 @@ COPY . .
 EXPOSE 8080
 
 RUN go build && \
-adduser appuser && \
+adduser -S appuser && \
 chown appuser .
 
 USER appuser
