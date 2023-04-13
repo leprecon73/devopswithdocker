@@ -1,4 +1,4 @@
-FROM node:16
+FROM node:alpine3.17
 
 WORKDIR /usr/src/app
 
@@ -9,7 +9,7 @@ EXPOSE 5000
 RUN npm install && \
 npm run build && \
 npm install -g serve && \
-useradd appuser && \
+useradd -S appuser && \
 chown appuser .
 
 USER appuser
