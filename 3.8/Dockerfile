@@ -9,7 +9,7 @@ RUN npm install && \
 
 FROM node:16-alpine
 
-EXPOSE 5005
+EXPOSE 5000
 
 WORKDIR /usr/src/app
 
