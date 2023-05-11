@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-11T12:45:49.865Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="276KxdMpfBMDFoSfdYyC" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-11T12:48:16.523Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="3oowo99UT4rjRJ2PpzJA" version="21.2.9" type="github">
   <diagram name="Страница 1" id="uwFEdxgpk832R23r9vTN">
     <mxGraphModel dx="683" dy="366" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -114,6 +114,36 @@
         </mxCell>
         <mxCell id="uK35nHAd_BGC3GV_SIp5-32" value="Container N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="439" y="680" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uK35nHAd_BGC3GV_SIp5-33" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="630" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uK35nHAd_BGC3GV_SIp5-34" value="Docker" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="294" y="630" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uK35nHAd_BGC3GV_SIp5-35" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="660" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uK35nHAd_BGC3GV_SIp5-36" value="Kubelet" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="294" y="660" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uK35nHAd_BGC3GV_SIp5-37" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="690" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uK35nHAd_BGC3GV_SIp5-38" value="Kube-proxy" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="294" y="690" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uK35nHAd_BGC3GV_SIp5-39" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="740" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uK35nHAd_BGC3GV_SIp5-40" value="&lt;font style=&quot;font-size: 18px;&quot; color=&quot;#ff0000&quot;&gt;Worker Node N&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="740" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uK35nHAd_BGC3GV_SIp5-41" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="760" as="sourcePoint" />
+            <mxPoint x="280" y="760" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
